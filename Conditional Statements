@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    char *a[]={"zero","one","two","three","four","five","six","seven","eight","nine"};
+    if(n<=9){
+        cout<<a[n];
+    }
+    else{
+        cout<<"Greater than 9";
+    }
+    
+    
+}
