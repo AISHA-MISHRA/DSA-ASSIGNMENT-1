@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int i;
+    int a;
+    int b;
+    char*d[]={"zero","one","two","three","four","five","six",    // Complete the code.
+   "seven","eight","nine"};
+    cin>>a>>b;
+    for(int i=a;i<=b;i++){
+        if(1<=i&i<=9){
+            cout<<d[i]<<endl;
+        }
+        else{
+            if(i%2==0){
+                cout<<"even"<<endl;
+            }
+            else{
+                cout<<"odd"<<endl;
+            }
+        }
+    }
+    
+    return 0;
+}
